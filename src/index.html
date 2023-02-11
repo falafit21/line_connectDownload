@@ -6,8 +6,49 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ 
 </head>
+
 <body>
   <app-root></app-root>
 </body>
+<!-- <div id="alert"></div>
+<div class="logo">
+  <div class="img">
+    <img src="../assets/line.png" alt="line_logo" height="200px" width="200px" class="line-logo">
+  </div>
+  <div class="line">Open Line to Continue.</div>
+</div>
+
+<div class="button-line">
+  <button class="btn btn-success btn-lg btn-block" onclick="open()">Open LINE</button>
+  <button type="button" class="btn btn-outline-secondary btn-block btn-lg" id="download">Download LINE</button>
+</div>
+
+</body>
 </html>
+<script>
+  function open()
+  {
+    alert('Please download app on your smartphone');
+  }
+  document.getElementById('download').addEventListener('click',function(){
+    let appURL ='';
+    let userAgent = window.navigator.userAgent;
+    if(userAgent.match(/android/)){
+      appURL = 'https://play.google.com/store/apps/details?id=jp.naver.line.android';
+    }
+    else if(userAgent.match(/iPhone|ipad|MAC/)){
+      appURL='https://apps.apple.com/app/line/id443904275'
+
+    }
+    else{
+      appURL='https://line.me/en/';
+    }
+    window.location.href = appURL;
+
+  });
+   -->
+<!-- </script> -->
